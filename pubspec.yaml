@@ -1,0 +1,58 @@
+name: alphahoodtask
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_text_kit:   
+  animated: ^1.0.1
+  flutter_staggered_animations: 
+  circular_check_box: ^1.0.4  
+  country_code_picker: ^1.7.0
+  pin_code_fields: 
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/Avatar.png
+    - assets/images/Vector.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+  - family: Quicksand
+    fonts:
+       - asset: assets/fonts/static/Quicksand-Regular.ttf
+  - family: Quicksand-bold   
+    fonts:  
+       - asset: assets/fonts/static/Quicksand-Bold.ttf
+         
+       
+ 
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
